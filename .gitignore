@@ -1,0 +1,52 @@
+# Vendor dependencies
+/vendor/
+composer.lock
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Storage and cache
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*
+!storage/framework/cache/.gitkeep
+!storage/framework/sessions/.gitkeep
+!storage/framework/views/.gitkeep
+
+# Public directory generated assets
+/public/hot
+/public/storage
+/public/css/*
+/public/js/*
+/public/mix-manifest.json
+
+# Build files
+/build/
+
+# Node modules
+/node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Testing
+/phpunit.xml
+.phpunit.result.cache
+
+# IDE & editors
+/.idea/
+/.vscode/
+/.vagrant/
+*.sublime-project
+*.sublime-workspace
+.project
+.DS_Store
+Thumbs.db
+
+# Application specific
+/config/secrets.php
