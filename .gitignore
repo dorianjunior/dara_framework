@@ -4,8 +4,6 @@ composer.lock
 
 # Environment files
 .env
-.env.*
-!.env.example
 
 # Storage and cache
 /storage/*.key
